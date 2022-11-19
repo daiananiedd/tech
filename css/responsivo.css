@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@media (max-width:900px) {
+    
+    section{
+        padding: 2vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .section01{
+        border-top: 0.2px solid;
+        border-bottom: 0.2px solid;
+        align-items: center;
+    }
+    .section01 div{
+        padding: 0 0;
+    }
+    .section01 .text01{
+        text-align: center;
+        padding-top: 30px;
+       font-size: 30px;
+    }
+    .section01 h4{
+        font-size: 20px;
+    }
+    .section01 h1{
+        padding-top: 40px;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .section01 h1 b{
+        color: var(--pink);
+    }
+    .section01 .img{
+        padding-top: 20px;
+        width: 90%;
+    }
+    
+    .section02 .text02{
+        text-align: center;
+        padding-top: 30px;
+        width: 90%;
+    }
+    .section02 h3{
+        color: var(--pink);
+        font-size: 26px;
+    }
+    .section02 p{
+        padding: 20px 0;
+        font-size: 18px;
+        letter-spacing: 0px;
+
+    }
+    .section02 #marke{
+        width: 70vh;
+    }
+    .section03{
+        background-color: rgba(91, 46, 196, 0.938);
+        text-align: center;
+        padding: 10vh 0;
+    }
+    
+    .section03 .item{
+        padding: 20px 20px;
+        color: var(--white);
+    }
+    .section03 h3{
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .section03 p{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .section04{
+       display: flex;
+       flex-direction: column;
+    }
+    .section04 .line{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .section04 .item{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section04 .div-img{
+        width: 300px;
+        height: 200px;
+    }
+    .section04 .div-text{
+        text-align: center;
+    }
+    .section04 a{
+        color: rgb(95, 3, 241);
+        font-weight:  700;
+        font-size: 19px;
+    }
+    .section04 #diferente{
+        color: rgb(253, 76, 106);
+        font-weight:  800;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .section05{
+        background-color: #000;
+        width: 100%;
+    }
+    .section05 .citacao{
+        text-align: center;
+        padding: 10vh;
+        color: var(--white);
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    .section05 h4{
+        font-size: 22px;
+    }
+    .section05 span{
+        padding-top: 30px;
+        color: rgb(253, 76, 106);
+        font-size: 30px;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    
+    .footer{
+        font-size: 20px;
+        text-align: center;
+        padding: 40px;
+    }
+    .footer a{
+        font-weight: bolder;
+    }
+}
