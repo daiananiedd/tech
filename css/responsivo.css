@@ -147,4 +147,28 @@
     .footer a{
         font-weight: bolder;
     }
+    .about01 .text{
+        text-align: justify;
+        padding: 10px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .about01 h3{
+        padding-top: 20px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .about02 .text{
+        text-align: justify;
+        padding: 10px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .about03 .text{
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
 }
