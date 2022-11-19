@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media (max-width:900px) {
-    
+
     section{
         padding: 2vh 0;
         display: flex;
@@ -100,12 +100,12 @@
         text-align: center;
     }
     .section04 a{
-        color: rgb(95, 3, 241);
+        color: rgb(0, 0, 0);
         font-weight:  700;
         font-size: 19px;
     }
     .section04 #diferente{
-        color: rgb(253, 76, 106);
+        color: rgb(0, 0, 0);
         font-weight:  800;
         font-size: 20px;
         text-transform: uppercase;
@@ -127,7 +127,7 @@
     }
     .section05 span{
         padding-top: 30px;
-        color: rgb(253, 76, 106);
+        color: rgb(255, 44, 160);
         font-size: 30px;
     }
     
