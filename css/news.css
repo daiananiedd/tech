@@ -89,11 +89,24 @@ main p{
     padding: 20px 0;
 }
 main h1{
-    color: red;
+    text-transform: uppercase;
+    color: rgb(89, 0, 255);
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     padding: 20px 0;
+}
+main h2{
+    text-transform: uppercase;
+    color: rgb(89, 0, 255);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+main h3{
+    font-size: 20px;
+    font-weight: 700;
 }
 div.video{
     background-color: var(--cor5);
