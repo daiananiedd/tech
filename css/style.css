@@ -157,11 +157,12 @@ section{
 }
 
 .section04 .item{
-    padding: 0 40px;
+    padding: 0 10px;
 }
 .section04 .div-img{
     width: 300px;
     height: 200px;
+    border-radius: 20px;
 }
 .section04 .div-text{
     text-align: center;
@@ -176,6 +177,9 @@ section{
     font-weight:  800;
     font-size: 20px;
     text-transform: uppercase;
+}
+.section04 .div-titulo{
+    font-size: 24px;
 }
 .section05{
     background-color: #000;
