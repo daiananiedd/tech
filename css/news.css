@@ -10,14 +10,12 @@
     --normal: 'Nunito', sans-serif;
 }
 *{
-    margin: 0;
-    padding: 0;
-    font-family: var(--normal);
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background: rgb(201, 184, 241);
-    min-height: 100vh;
-    
+    font-family: var(--normal);
 }
 a{
     text-decoration: none;
@@ -26,6 +24,10 @@ a{
 a:hover{
     border-bottom: 0.3px solid;
 }
+ul li{
+  list-style: none;
+  font-weight: bold;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -33,6 +35,7 @@ header{
     align-items: center;
     height: 70px;
     padding: 22px;
+    border-bottom: 0.2px solid;
 }
 
 nav .menu-icon{
@@ -64,4 +67,66 @@ nav ul li a{
     font-size: 17px;
     color: var(--black);
     letter-spacing: 3px;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+main img{
+    width: 100%;
+}
+main article{
+    text-align: justify;
+}
+main p{
+    padding: 20px 0;
+}
+main h1{
+    color: red;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+div.video{
+    background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57.5%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    margin: auto;
+    max-width: 200px;
+    background-color: #5e82ce;
+    text-align: center;
+    border-radius: 20px;
+}
+aside ul li{
+    padding-bottom: 20px;
+}
+footer{
+    text-align: center;
+    border-top: 0.2px solid;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+footer a{
+    font-weight: bolder;
 }
