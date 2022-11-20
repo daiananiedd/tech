@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200&display=swap');
+
+:root{
+    --white: #fff;
+    --black: #000;
+    --blue: #5e82ce;
+    --pink:rgb(102, 36, 255);
+
+    --normal: 'Nunito', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--normal);
+}
+body{
+    background: rgb(201, 184, 241);
+    min-height: 100vh;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+a:hover{
+    border-bottom: 0.3px solid;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 22px;
+}
+
+nav .menu-icon{
+    display: none;
+    cursor: pointer;
+}
+
+header .logo{
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--blue);
+    letter-spacing: 1px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--black);
+    letter-spacing: 3px;
+}
