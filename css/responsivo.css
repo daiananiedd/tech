@@ -4,6 +4,7 @@
 
 @media (max-width:900px) {
     body{
+        align-items: center;
         background: rgb(201, 184, 241);
         font-family: var(--normal);
     }
@@ -51,13 +52,13 @@
     }
     .section01 .img{
         padding-top: 20px;
-        width: 90%;
+        width: 100%;
     }
     
     .section02 .text02{
         text-align: center;
         padding-top: 30px;
-        width: 90%;
+        width: 100%;
     }
     .section02 h3{
         color: var(--pink);
@@ -70,7 +71,7 @@
 
     }
     .section02 #marke{
-        width: 70vh;
+        width: 100%;
     }
     .section03{
         background-color: rgba(91, 46, 196, 0.938);
