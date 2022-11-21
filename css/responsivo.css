@@ -3,7 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 @media (max-width:900px) {
-
+    body{
+        background: rgb(201, 184, 241);
+        font-family: var(--normal);
+    }
+    main{
+        padding: 20px 30px;
+        min-width: 300px;
+        max-width:100vh;
+        margin: auto;
+        margin-bottom: 30px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;   
+    }
     section{
         padding: 2vh 0;
         display: flex;
